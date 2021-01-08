@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="icons">
-      <img src="../assets/logo.png" />
+      <img src="../assets/logo.png" class="logo"/>
     </div>
     <h1 class="headerText">Test</h1>
     <div class="cardt">
@@ -20,8 +20,10 @@
       </p>
     </div>
     
-  <div class="box"></div>
-    <div class="box"></div>
+  <div class="box">
+    <img src="../assets/img1.jpg" class="image"/>
+    <img src="../assets/img2.jpg" class='imageTwo'/>
+   </div>
   </div>
 </template>
 
@@ -31,8 +33,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 @import '../assets/styles/styles.css';
-
 </style>
